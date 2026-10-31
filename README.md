@@ -1,3 +1,24 @@
+> **Problem:** a good finding, badly written up, gets ignored — and a lab exercise, presented as a real disclosure, is fabrication.
+>
+> **What this is:** a responsible-disclosure portfolio format: report, timeline and owner-approval templates, plus lab-only sample write-ups that show format, rigour and restraint.
+>
+> **Important, first:** every sample here is a **lab exercise** — fictional lab systems, fictional lab IDs, `cve_id: null`, no real vendor, no CVE claimed.
+>
+> **Who it is for:** researchers building a disclosure track record honestly, starting with format before real findings exist.
+>
+> **Quickstart:**
+>
+> ```bash
+> git clone https://github.com/ranas-mukminov/Disclosure-Portfolio.git
+> cd Disclosure-Portfolio
+> ls templates samples
+> ```
+>
+> **Sample result:** `samples/lab-001-ssrf.md`, `samples/lab-002-idor.md` and `samples/lab-003-xss.md` — each labelled lab-only on its first line.
+>
+[![CI](https://github.com/ranas-mukminov/Disclosure-Portfolio/actions/workflows/docs-check.yml/badge.svg)](https://github.com/ranas-mukminov/Disclosure-Portfolio/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
 # Disclosure-Portfolio
 
 A responsible-disclosure portfolio format: how a finding is written
